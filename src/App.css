@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0% 10%;
+  background-color: gainsboro;
+}
+
+h4 {
+  font-size: 1rem;
+  color: rgb(56, 56, 56);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(56, 56, 56);
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+a {
+  color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 750px) {
+  .splide__slide {
+    margin-right: 10rem !important;
+  }
+}
